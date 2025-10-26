@@ -1,8 +1,9 @@
 {
   "name": "lab4",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/IlliaDranchak/backend-course-2025-4/issues"
   },
-  "homepage": "https://github.com/IlliaDranchak/backend-course-2025-4#readme"
+  "homepage": "https://github.com/IlliaDranchak/backend-course-2025-4#readme",
+  "dependencies": {
+    "commander": "^14.0.2"
+  }
 }
